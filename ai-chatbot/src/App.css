@@ -1,0 +1,53 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.user {
+  text-align: right;
+  background-color: #d1e7dd;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ai {
+  text-align: left;
+  background-color: #f8d7da;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
